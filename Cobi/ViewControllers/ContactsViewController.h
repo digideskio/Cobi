@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ContactsViewController.h
 //  Cobi
 //
 //  Created by Nickolay Sheika on 7/9/16.
@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface ViewController : UIViewController
+
+
+@interface ContactsViewController : BaseViewController
 
 
 @end

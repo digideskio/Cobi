@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "BaseViewController.h"
+#import "CoreDataStackBuilder.h"
 
 
 
@@ -22,6 +24,11 @@
 - (BOOL)          application:(UIApplication *)application
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    APCDController *coreDataStack = [[CoreDataStackBuilder new] buildCoreDataStack];
+
+    CoreDataStackInjector *injector = [CoreDataStackInjector injectorWithCoreDataStack:coreDataStack];
+    [injector injectInFirstViewControllerOfNavigationController:(UINavigationController *) self.window.rootViewController];
+
     return YES;
 }
 

@@ -7,15 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07EA4610C76DFDC9016322EE /* Pods_Cobi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B709E9180961EA8C75847F /* Pods_Cobi.framework */; };
+		4D7B078BA4BDB0452354769C /* libPods-CobiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DEE57022F296A0C1FFFC2A /* libPods-CobiTests.a */; };
 		719A69BB1D3152260046AFD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 719A69BA1D3152260046AFD6 /* AppDelegate.m */; };
-		719A69D11D3152260046AFD6 /* CobiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 719A69D01D3152260046AFD6 /* CobiTests.m */; };
-		B12525FFAE2BD59388F0D28C /* Pods_CobiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF53C5072D30EE69E88B254 /* Pods_CobiTests.framework */; };
+		71EA090A1D322F4800301574 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71EA09091D322F4800301574 /* CoreData.framework */; };
+		71EA090C1D325DDE00301574 /* AddContact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71EA090B1D325DDE00301574 /* AddContact.storyboard */; };
+		9E691F3FACD80E528A9A8620 /* libPods-Cobi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43470D2F428AD028FA926AEF /* libPods-Cobi.a */; };
+		B65531178635A19A662C285C /* ContactsFRCFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B65538F97AA740C5959E76DC /* ContactsFRCFactoryTests.m */; };
+		B655311D6E03FCB2A6A06FF9 /* PhoneNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B65531C580C15F017DEBD0D8 /* PhoneNumberFormatter.m */; };
+		B655313A3A919FBB0B81BE4A /* BaseCoreDataFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B6553AD427AF2E4553F0B3FD /* BaseCoreDataFactory.m */; };
+		B6553148C70FAEB9375C7EB2 /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6553B6A6D3A0A687F249ED5 /* AddContactViewController.m */; };
+		B655315AF31237783D0FE994 /* PhoneCallManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B65536B8E3D93B6136CBF388 /* PhoneCallManager.m */; };
+		B65531657DE0D8D7B092A728 /* ContactViewModelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B65531BBF1BFBC0E35F97AC7 /* ContactViewModelFactory.m */; };
+		B6553184CC67CF5F439408A3 /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6553D87A8C0444C9BB40BCB /* ContactTableViewCell.m */; };
 		B655322413FE4B2922DCC56C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B65535EF3187789FD76F5808 /* main.m */; };
-		B655340CD3986549DA79E28C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B655331CB799B870C6F9FA2A /* ViewController.m */; };
-		B65534C6766D4F93489D0E3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B655316D220ED574E6083136 /* Main.storyboard */; };
+		B6553227CADE7C024ECAB348 /* CoreDataStackInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = B655369614A4FC522B1986DB /* CoreDataStackInjector.m */; };
+		B65533F8C03D7506DA5739ED /* PhoneNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B655319DF91B1E14874F7374 /* PhoneNumberValidator.m */; };
+		B655340CD3986549DA79E28C /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B655331CB799B870C6F9FA2A /* ContactsViewController.m */; };
+		B65534485AE6597EF0A11510 /* NSFetchedResultsController+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = B655381852F321FB70786976 /* NSFetchedResultsController+Convenience.m */; };
+		B6553470547AF09AF85B9930 /* CoreDataStackBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B655398408463A7C023A10D5 /* CoreDataStackBuilder.m */; };
+		B65534DDAB2A7764F658D210 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = B65530A38744F7A23F2A0B33 /* Contact.m */; };
+		B65534F298C512AF897AB001 /* PhoneNumberValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B65532D89F8428B518E1C784 /* PhoneNumberValidatorTests.m */; };
+		B65535607D1BC3D3A3A4F09D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6553C7252425F9309132455 /* Localizable.strings */; };
+		B65535975F1FB010D8149858 /* ContactsCountFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B65530656E705A3DA2DFB61D /* ContactsCountFormatter.m */; };
+		B65535C8D0015AED61AA2F92 /* UIViewController+Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = B65535552D3BD0FB8A919687 /* UIViewController+Alerts.m */; };
+		B65536F7BF815140218E3D1A /* InMemoryCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B655337F5AC05D2874EA98F1 /* InMemoryCoreDataTests.m */; };
+		B65537077C79592A0B1BF13A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6553D232D8A8B6A135DDC47 /* Main.storyboard */; };
+		B6553750D95E1EACA09E576A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6553C95E137E8D6243F1FA9 /* LaunchScreen.storyboard */; };
+		B655385F1478ECBC0960C7C5 /* ContactViewModelFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B65536746F971D0CD207726E /* ContactViewModelFactoryTests.m */; };
+		B65539F37A442FCBDE2FE16F /* Contact+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B6553E36EE64ED35EF76808B /* Contact+CoreDataProperties.m */; };
+		B6553B890522C94A9947B795 /* PhoneNumberFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B655357402C50D9CFF314ED2 /* PhoneNumberFormatterTests.m */; };
+		B6553C792759C906D0F6BBB8 /* PhoneCallManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B65535F6B3D6D5FC0F5F5C5C /* PhoneCallManagerTests.m */; };
+		B6553C83A30D9E5213823073 /* ContactsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B655348C26BA11C18487EE86 /* ContactsDataSource.m */; };
+		B6553C8F83B0FBB75A748801 /* ContactsCountFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6553663ADAC7AEAFDB98983 /* ContactsCountFormatterTests.m */; };
+		B6553D833136E8F4F3F8F2C1 /* ContactViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B655383F3AB71BD4E831DD6B /* ContactViewModel.m */; };
 		B6553E2BCDD6ECCB79EBAC30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6553DAE02BF26561D32AA79 /* Assets.xcassets */; };
-		B6553EDCFE7913C2C1EB2EED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65534CDBDA7954822828F0C /* LaunchScreen.storyboard */; };
+		B6553E457D37AA5C45374F5C /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B65539DC7C0B12B65946B596 /* BaseTableViewCell.m */; };
+		B6553EB5C6BBE157DF8D9035 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6553ADE2687B57872444665 /* BaseViewController.m */; };
+		B6553EE135AEB9197EA911B7 /* NSManagedObjectContext+SaveToStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B655335643FFC28B0A48AEB4 /* NSManagedObjectContext+SaveToStore.m */; };
+		B6553F4CB625CA0923C14658 /* ContactsFRCFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B6553934690F83B59F84CBAC /* ContactsFRCFactory.m */; };
+		B6553FA4F665ADECADD4A880 /* Cobi.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = B6553B8B55792E3B41C3744E /* Cobi.xcdatamodel */; };
+		B6553FDFB801578780C7A2AF /* ContactsDataSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B65530EC6B0DE9B22183DC55 /* ContactsDataSourceTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,26 +61,78 @@
 
 /* Begin PBXFileReference section */
 		0DEA01ECA4B4963EB9B0FB3A /* Pods-Cobi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cobi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cobi/Pods-Cobi.release.xcconfig"; sourceTree = "<group>"; };
-		4AF53C5072D30EE69E88B254 /* Pods_CobiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CobiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43470D2F428AD028FA926AEF /* libPods-Cobi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cobi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		719A69B31D3152260046AFD6 /* Cobi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cobi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		719A69B91D3152260046AFD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		719A69BA1D3152260046AFD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		719A69CC1D3152260046AFD6 /* CobiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CobiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		719A69D01D3152260046AFD6 /* CobiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CobiTests.m; sourceTree = "<group>"; };
+		71EA09091D322F4800301574 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		71EA090B1D325DDE00301574 /* AddContact.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddContact.storyboard; sourceTree = "<group>"; };
 		8A354BECA0B2190A49157213 /* Pods-CobiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CobiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CobiTests/Pods-CobiTests.debug.xcconfig"; sourceTree = "<group>"; };
-		92B709E9180961EA8C75847F /* Pods_Cobi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cobi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97570D4748F7333FFEDD8132 /* Pods-CobiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CobiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CobiTests/Pods-CobiTests.release.xcconfig"; sourceTree = "<group>"; };
+		B655300B8A0BA7B7BF7347C8 /* InMemoryCoreDataTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InMemoryCoreDataTests.h; sourceTree = "<group>"; };
+		B65530656E705A3DA2DFB61D /* ContactsCountFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsCountFormatter.m; sourceTree = "<group>"; };
 		B6553067E8F8ADF18D6684C2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		B655331CB799B870C6F9FA2A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B65530756ADB751F3C4C44D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Cobi/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		B65530A38744F7A23F2A0B33 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		B65530AB078B521F97069500 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		B65530EC6B0DE9B22183DC55 /* ContactsDataSourceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsDataSourceTests.m; sourceTree = "<group>"; };
+		B655314EDF1F0A21B686AD6E /* NSManagedObjectContext+SaveToStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+SaveToStore.h"; sourceTree = "<group>"; };
+		B655315A73884714C2FEF857 /* ContactViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewModel.h; sourceTree = "<group>"; };
+		B655319756B92DAFC891A528 /* Contact+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Contact+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B655319DF91B1E14874F7374 /* PhoneNumberValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberValidator.m; sourceTree = "<group>"; };
+		B65531BBF1BFBC0E35F97AC7 /* ContactViewModelFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewModelFactory.m; sourceTree = "<group>"; };
+		B65531C580C15F017DEBD0D8 /* PhoneNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberFormatter.m; sourceTree = "<group>"; };
+		B6553236AE993230AD247705 /* ContactsFRCFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsFRCFactory.h; sourceTree = "<group>"; };
+		B65532D89F8428B518E1C784 /* PhoneNumberValidatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberValidatorTests.m; sourceTree = "<group>"; };
+		B655331CB799B870C6F9FA2A /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		B6553326112FF2E6AAAFE64E /* ContactsCountFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsCountFormatter.h; sourceTree = "<group>"; };
+		B655335643FFC28B0A48AEB4 /* NSManagedObjectContext+SaveToStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+SaveToStore.m"; sourceTree = "<group>"; };
+		B655336EACD61F905BFEFA01 /* PhoneNumberValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumberValidator.h; sourceTree = "<group>"; };
+		B655337F5AC05D2874EA98F1 /* InMemoryCoreDataTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InMemoryCoreDataTests.m; sourceTree = "<group>"; };
+		B65533BC79C393BD5BA31843 /* UIViewController+Alerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alerts.h"; sourceTree = "<group>"; };
+		B6553431FED6BDE0933A056D /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
 		B655346345896DF525392BA6 /* CobiTests-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CobiTests-prefix.pch"; sourceTree = "<group>"; };
+		B655348C26BA11C18487EE86 /* ContactsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsDataSource.m; sourceTree = "<group>"; };
+		B655351A53627E0CDCF456C7 /* AddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactViewController.h; sourceTree = "<group>"; };
+		B65535552D3BD0FB8A919687 /* UIViewController+Alerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alerts.m"; sourceTree = "<group>"; };
+		B655357402C50D9CFF314ED2 /* PhoneNumberFormatterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberFormatterTests.m; sourceTree = "<group>"; };
+		B65535E891E00F27BAD4C2C1 /* CoreDataStackBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStackBuilder.h; sourceTree = "<group>"; };
 		B65535EF3187789FD76F5808 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B6553683D51C6A7719996955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Cobi/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		B65535F6B3D6D5FC0F5F5C5C /* PhoneCallManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneCallManagerTests.m; sourceTree = "<group>"; };
+		B6553663ADAC7AEAFDB98983 /* ContactsCountFormatterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsCountFormatterTests.m; sourceTree = "<group>"; };
+		B65536746F971D0CD207726E /* ContactViewModelFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewModelFactoryTests.m; sourceTree = "<group>"; };
+		B655369614A4FC522B1986DB /* CoreDataStackInjector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStackInjector.m; sourceTree = "<group>"; };
 		B65536A36543B1885835E3FA /* Cobi-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Cobi-prefix.pch"; sourceTree = "<group>"; };
-		B6553807F32C19468A4C5EC6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B65536B8E3D93B6136CBF388 /* PhoneCallManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneCallManager.m; sourceTree = "<group>"; };
+		B655372744C7B9921FC619D7 /* CoreDataStackInjector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStackInjector.h; sourceTree = "<group>"; };
+		B65537CB158AAC4C72418E30 /* NSFetchedResultsController+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFetchedResultsController+Convenience.h"; sourceTree = "<group>"; };
+		B6553807F32C19468A4C5EC6 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		B655381852F321FB70786976 /* NSFetchedResultsController+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFetchedResultsController+Convenience.m"; sourceTree = "<group>"; };
 		B6553839258CE749F1C7AADE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		B6553D263BAB256D15CA59B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Cobi/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		B655383F3AB71BD4E831DD6B /* ContactViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewModel.m; sourceTree = "<group>"; };
+		B65538A806CFFCCAE71BF424 /* ContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
+		B65538F97AA740C5959E76DC /* ContactsFRCFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsFRCFactoryTests.m; sourceTree = "<group>"; };
+		B6553934690F83B59F84CBAC /* ContactsFRCFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsFRCFactory.m; sourceTree = "<group>"; };
+		B655398408463A7C023A10D5 /* CoreDataStackBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStackBuilder.m; sourceTree = "<group>"; };
+		B65539A465D1A26C3061DD9A /* ContactViewModelFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewModelFactory.h; sourceTree = "<group>"; };
+		B65539DC7C0B12B65946B596 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		B6553A03871D5A359D2C4442 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		B6553AAA0537A22149497AB4 /* PhoneNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumberFormatter.h; sourceTree = "<group>"; };
+		B6553AD427AF2E4553F0B3FD /* BaseCoreDataFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCoreDataFactory.m; sourceTree = "<group>"; };
+		B6553ADE2687B57872444665 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		B6553B6A6D3A0A687F249ED5 /* AddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContactViewController.m; sourceTree = "<group>"; };
+		B6553B8B55792E3B41C3744E /* Cobi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cobi.xcdatamodel; sourceTree = "<group>"; };
+		B6553C7252425F9309132455 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		B6553CC0124D187EDBE1F69E /* PhoneCallManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneCallManager.h; sourceTree = "<group>"; };
+		B6553CD596CE3E28086E2639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Cobi/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		B6553D87A8C0444C9BB40BCB /* ContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
 		B6553DAE02BF26561D32AA79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6553DB344A7B957CA5FE6A0 /* ContactsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsDataSource.h; sourceTree = "<group>"; };
+		B6553E36EE64ED35EF76808B /* Contact+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Contact+CoreDataProperties.m"; sourceTree = "<group>"; };
+		B6553EE955513514B065B199 /* BaseCoreDataFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCoreDataFactory.h; sourceTree = "<group>"; };
 		BFD4605577527DDAE2950DB6 /* Pods-Cobi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cobi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cobi/Pods-Cobi.debug.xcconfig"; sourceTree = "<group>"; };
+		D4DEE57022F296A0C1FFFC2A /* libPods-CobiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CobiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +140,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07EA4610C76DFDC9016322EE /* Pods_Cobi.framework in Frameworks */,
+				71EA090A1D322F4800301574 /* CoreData.framework in Frameworks */,
+				9E691F3FACD80E528A9A8620 /* libPods-Cobi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B12525FFAE2BD59388F0D28C /* Pods_CobiTests.framework in Frameworks */,
+				4D7B078BA4BDB0452354769C /* libPods-CobiTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +184,9 @@
 				B65530EEE14A4FDA22D9CB92 /* Supporting Files */,
 				B6553239A41BF978629B5686 /* Resources */,
 				B6553B6BAAD70440E2674474 /* ViewControllers */,
+				B655318F04EA6ADFF341483A /* Model */,
+				B65531744BD6FCC0843E2032 /* View */,
+				B6553FE395615B1B729A2EAD /* Categories */,
 			);
 			path = Cobi;
 			sourceTree = "<group>";
@@ -107,8 +194,15 @@
 		719A69CF1D3152260046AFD6 /* CobiTests */ = {
 			isa = PBXGroup;
 			children = (
-				719A69D01D3152260046AFD6 /* CobiTests.m */,
 				B6553113DFF79F242992B3F0 /* Supporting Files */,
+				B6553663ADAC7AEAFDB98983 /* ContactsCountFormatterTests.m */,
+				B6553DFCE2CF7FC5743D20EE /* Base */,
+				B65530EC6B0DE9B22183DC55 /* ContactsDataSourceTests.m */,
+				B65536746F971D0CD207726E /* ContactViewModelFactoryTests.m */,
+				B65538F97AA740C5959E76DC /* ContactsFRCFactoryTests.m */,
+				B655357402C50D9CFF314ED2 /* PhoneNumberFormatterTests.m */,
+				B65535F6B3D6D5FC0F5F5C5C /* PhoneCallManagerTests.m */,
+				B65532D89F8428B518E1C784 /* PhoneNumberValidatorTests.m */,
 			);
 			path = CobiTests;
 			sourceTree = "<group>";
@@ -116,8 +210,9 @@
 		AEABA674F2D76267A574542B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				92B709E9180961EA8C75847F /* Pods_Cobi.framework */,
-				4AF53C5072D30EE69E88B254 /* Pods_CobiTests.framework */,
+				71EA09091D322F4800301574 /* CoreData.framework */,
+				43470D2F428AD028FA926AEF /* libPods-Cobi.a */,
+				D4DEE57022F296A0C1FFFC2A /* libPods-CobiTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -141,23 +236,248 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B655314740FCFF26DCFC6E96 /* NSFetchedResultsController */ = {
+			isa = PBXGroup;
+			children = (
+				B65537CB158AAC4C72418E30 /* NSFetchedResultsController+Convenience.h */,
+				B655381852F321FB70786976 /* NSFetchedResultsController+Convenience.m */,
+			);
+			path = NSFetchedResultsController;
+			sourceTree = "<group>";
+		};
+		B655316D7A94587CC199968B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B655372744C7B9921FC619D7 /* CoreDataStackInjector.h */,
+				B655369614A4FC522B1986DB /* CoreDataStackInjector.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B65531744BD6FCC0843E2032 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B65539FCF3E30417D2702B55 /* TableViewCells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B655318F04EA6ADFF341483A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6553C04147CF45EDBA39869 /* DataModels */,
+				B65533FEFE196272BC763F3B /* Builders */,
+				B65533E6F1984B89FDB8CCD2 /* Factories */,
+				B65534DDF27E4280C03511D7 /* Formatters */,
+				B6553FF90E03C140DBAB4F3F /* DataSources */,
+				B6553500A960C638AF9B2093 /* Managers */,
+				B655334A8F9BBEE55DE05793 /* Validators */,
+				B655316D7A94587CC199968B /* Helpers */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B6553239A41BF978629B5686 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				B6553DAE02BF26561D32AA79 /* Assets.xcassets */,
+				B6553C7252425F9309132455 /* Localizable.strings */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B655331445D2E4E1C41C6A62 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B6553C95E137E8D6243F1FA9 /* LaunchScreen.storyboard */,
+				B6553D232D8A8B6A135DDC47 /* Main.storyboard */,
+				71EA090B1D325DDE00301574 /* AddContact.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B655334A8F9BBEE55DE05793 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				B655319DF91B1E14874F7374 /* PhoneNumberValidator.m */,
+				B655336EACD61F905BFEFA01 /* PhoneNumberValidator.h */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		B65533E6F1984B89FDB8CCD2 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				B6553E7F13A5435098F9B002 /* FRC */,
+				B6553AC659EB113A1AEE4186 /* Base */,
+				B65531BBF1BFBC0E35F97AC7 /* ContactViewModelFactory.m */,
+				B65539A465D1A26C3061DD9A /* ContactViewModelFactory.h */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		B65533FEFE196272BC763F3B /* Builders */ = {
+			isa = PBXGroup;
+			children = (
+				B655398408463A7C023A10D5 /* CoreDataStackBuilder.m */,
+				B65535E891E00F27BAD4C2C1 /* CoreDataStackBuilder.h */,
+			);
+			path = Builders;
+			sourceTree = "<group>";
+		};
+		B655341C539E1BEA9BA37AE2 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B65535552D3BD0FB8A919687 /* UIViewController+Alerts.m */,
+				B65533BC79C393BD5BA31843 /* UIViewController+Alerts.h */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		B65534DDF27E4280C03511D7 /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				B65530656E705A3DA2DFB61D /* ContactsCountFormatter.m */,
+				B6553326112FF2E6AAAFE64E /* ContactsCountFormatter.h */,
+				B65531C580C15F017DEBD0D8 /* PhoneNumberFormatter.m */,
+				B6553AAA0537A22149497AB4 /* PhoneNumberFormatter.h */,
+			);
+			path = Formatters;
+			sourceTree = "<group>";
+		};
+		B6553500A960C638AF9B2093 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B65536B8E3D93B6136CBF388 /* PhoneCallManager.m */,
+				B6553CC0124D187EDBE1F69E /* PhoneCallManager.h */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B65536C1A34167D50B3E16F4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B655383F3AB71BD4E831DD6B /* ContactViewModel.m */,
+				B655315A73884714C2FEF857 /* ContactViewModel.h */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B65536F9DE09B739660EBFC9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B65539DC7C0B12B65946B596 /* BaseTableViewCell.m */,
+				B65530AB078B521F97069500 /* BaseTableViewCell.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B655379AB1A1B4E6D802B6F5 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B6553E36EE64ED35EF76808B /* Contact+CoreDataProperties.m */,
+				B655319756B92DAFC891A528 /* Contact+CoreDataProperties.h */,
+				B6553B8B55792E3B41C3744E /* Cobi.xcdatamodel */,
+				B65530A38744F7A23F2A0B33 /* Contact.m */,
+				B6553431FED6BDE0933A056D /* Contact.h */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		B65537C2298312F991C2CD5E /* NSManagedObjectContext */ = {
+			isa = PBXGroup;
+			children = (
+				B655314EDF1F0A21B686AD6E /* NSManagedObjectContext+SaveToStore.h */,
+				B655335643FFC28B0A48AEB4 /* NSManagedObjectContext+SaveToStore.m */,
+			);
+			path = NSManagedObjectContext;
+			sourceTree = "<group>";
+		};
+		B65539FCF3E30417D2702B55 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B6553D87A8C0444C9BB40BCB /* ContactTableViewCell.m */,
+				B65538A806CFFCCAE71BF424 /* ContactTableViewCell.h */,
+				B65536F9DE09B739660EBFC9 /* Base */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		B6553AC659EB113A1AEE4186 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B6553AD427AF2E4553F0B3FD /* BaseCoreDataFactory.m */,
+				B6553EE955513514B065B199 /* BaseCoreDataFactory.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B6553B575DD7955A54174F63 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B6553ADE2687B57872444665 /* BaseViewController.m */,
+				B6553A03871D5A359D2C4442 /* BaseViewController.h */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		B6553B6BAAD70440E2674474 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				B655316D220ED574E6083136 /* Main.storyboard */,
-				B65534CDBDA7954822828F0C /* LaunchScreen.storyboard */,
-				B655331CB799B870C6F9FA2A /* ViewController.m */,
-				B6553807F32C19468A4C5EC6 /* ViewController.h */,
+				B655331CB799B870C6F9FA2A /* ContactsViewController.m */,
+				B6553807F32C19468A4C5EC6 /* ContactsViewController.h */,
+				B6553B6A6D3A0A687F249ED5 /* AddContactViewController.m */,
+				B655351A53627E0CDCF456C7 /* AddContactViewController.h */,
+				B6553B575DD7955A54174F63 /* Base */,
+				B655331445D2E4E1C41C6A62 /* Storyboards */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B6553C04147CF45EDBA39869 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				B655379AB1A1B4E6D802B6F5 /* CoreData */,
+				B65536C1A34167D50B3E16F4 /* ViewModels */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		B6553DFCE2CF7FC5743D20EE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B655337F5AC05D2874EA98F1 /* InMemoryCoreDataTests.m */,
+				B655300B8A0BA7B7BF7347C8 /* InMemoryCoreDataTests.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B6553E7F13A5435098F9B002 /* FRC */ = {
+			isa = PBXGroup;
+			children = (
+				B6553934690F83B59F84CBAC /* ContactsFRCFactory.m */,
+				B6553236AE993230AD247705 /* ContactsFRCFactory.h */,
+			);
+			path = FRC;
+			sourceTree = "<group>";
+		};
+		B6553FE395615B1B729A2EAD /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B655314740FCFF26DCFC6E96 /* NSFetchedResultsController */,
+				B65537C2298312F991C2CD5E /* NSManagedObjectContext */,
+				B655341C539E1BEA9BA37AE2 /* UIViewController */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B6553FF90E03C140DBAB4F3F /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				B655348C26BA11C18487EE86 /* ContactsDataSource.m */,
+				B6553DB344A7B957CA5FE6A0 /* ContactsDataSource.h */,
+			);
+			path = DataSources;
 			sourceTree = "<group>";
 		};
 		BBFF84D75B0B041AE90CCFB3 /* Pods */ = {
@@ -258,8 +578,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6553E2BCDD6ECCB79EBAC30 /* Assets.xcassets in Resources */,
-				B65534C6766D4F93489D0E3E /* Main.storyboard in Resources */,
-				B6553EDCFE7913C2C1EB2EED /* LaunchScreen.storyboard in Resources */,
+				B65535607D1BC3D3A3A4F09D /* Localizable.strings in Resources */,
+				B6553750D95E1EACA09E576A /* LaunchScreen.storyboard in Resources */,
+				71EA090C1D325DDE00301574 /* AddContact.storyboard in Resources */,
+				B65537077C79592A0B1BF13A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +694,28 @@
 			files = (
 				719A69BB1D3152260046AFD6 /* AppDelegate.m in Sources */,
 				B655322413FE4B2922DCC56C /* main.m in Sources */,
-				B655340CD3986549DA79E28C /* ViewController.m in Sources */,
+				B655340CD3986549DA79E28C /* ContactsViewController.m in Sources */,
+				B6553148C70FAEB9375C7EB2 /* AddContactViewController.m in Sources */,
+				B6553EB5C6BBE157DF8D9035 /* BaseViewController.m in Sources */,
+				B6553470547AF09AF85B9930 /* CoreDataStackBuilder.m in Sources */,
+				B6553184CC67CF5F439408A3 /* ContactTableViewCell.m in Sources */,
+				B655313A3A919FBB0B81BE4A /* BaseCoreDataFactory.m in Sources */,
+				B6553F4CB625CA0923C14658 /* ContactsFRCFactory.m in Sources */,
+				B6553E457D37AA5C45374F5C /* BaseTableViewCell.m in Sources */,
+				B65535975F1FB010D8149858 /* ContactsCountFormatter.m in Sources */,
+				B6553C83A30D9E5213823073 /* ContactsDataSource.m in Sources */,
+				B65539F37A442FCBDE2FE16F /* Contact+CoreDataProperties.m in Sources */,
+				B6553FA4F665ADECADD4A880 /* Cobi.xcdatamodel in Sources */,
+				B65534DDAB2A7764F658D210 /* Contact.m in Sources */,
+				B6553D833136E8F4F3F8F2C1 /* ContactViewModel.m in Sources */,
+				B655311D6E03FCB2A6A06FF9 /* PhoneNumberFormatter.m in Sources */,
+				B65531657DE0D8D7B092A728 /* ContactViewModelFactory.m in Sources */,
+				B65534485AE6597EF0A11510 /* NSFetchedResultsController+Convenience.m in Sources */,
+				B6553EE135AEB9197EA911B7 /* NSManagedObjectContext+SaveToStore.m in Sources */,
+				B655315AF31237783D0FE994 /* PhoneCallManager.m in Sources */,
+				B65535C8D0015AED61AA2F92 /* UIViewController+Alerts.m in Sources */,
+				B65533F8C03D7506DA5739ED /* PhoneNumberValidator.m in Sources */,
+				B6553227CADE7C024ECAB348 /* CoreDataStackInjector.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +723,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				719A69D11D3152260046AFD6 /* CobiTests.m in Sources */,
+				B6553C8F83B0FBB75A748801 /* ContactsCountFormatterTests.m in Sources */,
+				B65536F7BF815140218E3D1A /* InMemoryCoreDataTests.m in Sources */,
+				B6553FDFB801578780C7A2AF /* ContactsDataSourceTests.m in Sources */,
+				B655385F1478ECBC0960C7C5 /* ContactViewModelFactoryTests.m in Sources */,
+				B65531178635A19A662C285C /* ContactsFRCFactoryTests.m in Sources */,
+				B6553B890522C94A9947B795 /* PhoneNumberFormatterTests.m in Sources */,
+				B6553C792759C906D0F6BBB8 /* PhoneCallManagerTests.m in Sources */,
+				B65534F298C512AF897AB001 /* PhoneNumberValidatorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,20 +745,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B655316D220ED574E6083136 /* Main.storyboard */ = {
+		B6553C95E137E8D6243F1FA9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B6553D263BAB256D15CA59B2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B65534CDBDA7954822828F0C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B6553683D51C6A7719996955 /* Base */,
+				B65530756ADB751F3C4C44D8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B6553D232D8A8B6A135DDC47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6553CD596CE3E28086E2639 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

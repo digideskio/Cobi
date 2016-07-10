@@ -9,8 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
+static bool isRunningTests()
+{
+    return NSStringFromClass(NSClassFromString(@"XCTestCase")) != nil;
+}
+
 int main(int argc, char * argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, isRunningTests() ? nil : NSStringFromClass([AppDelegate class]));
     }
 }
